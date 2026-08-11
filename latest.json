@@ -1,12 +1,12 @@
 {
-  "version": "0.1.5-alpha",
-  "name": "Qube Browser 0.1.5-alpha",
+  "version": "0.1.6-alpha",
+  "name": "Qube Browser 0.1.6-alpha",
   "published": "2026-08-11",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.5-alpha/Qube-0.1.5-alpha-setup.exe",
-    "size": 149281564,
-    "sha256": "faaf75a1109ad31d46af92ec34f3179a5efb85b2f9db0b4d44a0d238e58a4f61"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.6-alpha/Qube-0.1.6-alpha-setup.exe",
+    "size": 149278058,
+    "sha256": "98d39f3c464ab904a883f057050a3a7db48bc423e581c3e0dfc7151d1d58d552"
   },
-  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.5-alpha",
-  "summary": "The engine now counts its frames, to settle why the content area freezes on some machines."
+  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.6-alpha",
+  "summary": "Renders on virtual desktops, no longer leaves orphaned engines behind, and updates without a wizard."
 }
