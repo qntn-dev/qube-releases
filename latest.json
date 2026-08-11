@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0-alpha",
+  "name": "Qube Browser 0.1.0-alpha",
+  "published": "2026-08-11",
+  "setup": {
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.0-alpha/Qube-0.1.0-alpha-setup.exe",
+    "size": 149255063,
+    "sha256": "a40a4538b383b3c0498c8a898e419ee4f05d779550a5e843a4e1a840241c8015"
+  },
+  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.0-alpha",
+  "summary": "First build you can hand to someone else. Spaces as real profiles, Zen-style themes, extensions from the Web Store."
+}
