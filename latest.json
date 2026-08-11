@@ -1,12 +1,12 @@
 {
-  "version": "0.1.3-alpha",
-  "name": "Qube Browser 0.1.3-alpha",
+  "version": "0.1.4-alpha",
+  "name": "Qube Browser 0.1.4-alpha",
   "published": "2026-08-11",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.3-alpha/Qube-0.1.3-alpha-setup.exe",
-    "size": 149275275,
-    "sha256": "d40f7b301332b7cd122c1ba2d80dc3be4a517aceb4ff9e68a780cb0e1c947371"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.4-alpha/Qube-0.1.4-alpha-setup.exe",
+    "size": 149282586,
+    "sha256": "7757ba5c6c57c0b6eec3ceac03c81a9f47f76deba2cccaebd36d4899d77f402b"
   },
-  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.3-alpha",
-  "summary": "Space dots that actually collapse, an update dialog that stays alive while it downloads, and an engine that says why the content area is blank."
+  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.4-alpha",
+  "summary": "The updater no longer downloads over the UI thread. 427 kB/s was not the network."
 }
