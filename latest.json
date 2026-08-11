@@ -4,9 +4,9 @@
   "published": "2026-08-11",
   "setup": {
     "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.12-alpha/Qube-0.1.12-alpha-setup.exe",
-    "size": 149471423,
-    "sha256": "219d6214fc84b6e27816c0283967368d3fde46d39d4176713169355a02dac146"
+    "size": 149472753,
+    "sha256": "fe4ed201632950da8f01a0569c4c908aafdffec8a92ff63591b67245157bddab"
   },
-  "notes": "Fixed\n- Ad and content blockers now block. uBlock Origin Lite works.\n- Extension popups are sized from their content. Some opened too wide, showing\n  a strip of the extension's own background down the right.\n- Reopening a popup no longer shows the previous popup's picture, stretched,\n  until the new one arrives.\n- Extensions can register protocol handlers again.\n- Removed a startup flag that disabled Chromium's internal safety checks across\n  the engine.\n- Release notes now appear in this window.\n\nKnown\n- Extension popups take about a second to appear, longer for some.",
+  "notes": "Fixed\n- Ad and content blockers now block. uBlock Origin Lite works.\n- Extension popups are sized from their content. Some opened too wide, showing\n  a strip of the extension's own background down the right.\n- Reopening a popup no longer shows the previous popup's picture, stretched,\n  until the new one arrives.\n- Extensions can register protocol handlers again.\n- Removed a startup flag that disabled Chromium's internal safety checks across\n  the engine.\n- The update window shows release notes, and has room for them.\n\nKnown\n- Extension popups take about a second to appear, longer for some.",
   "summary": "Ad and content blockers now work. Extensions were never placed in the network path, so a blocker would load, run and block nothing."
 }
