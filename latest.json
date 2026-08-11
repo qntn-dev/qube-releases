@@ -4,8 +4,8 @@
   "published": "2026-08-11",
   "setup": {
     "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.2-alpha/Qube-0.1.2-alpha-setup.exe",
-    "size": 149263314,
-    "sha256": "16b3f94543d453ce7a0e93db2811f531e2165d895dc66bf41f58a38449a0860c"
+    "size": 149271556,
+    "sha256": "3149f5e01404d0809372cce2409361ba79ad9726ff039ab7a75d207bd36ada36"
   },
   "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.2-alpha",
   "summary": "Space dots with hover, middle-click to close a tab, a working install over a running browser, and cookies that respect host permissions."
