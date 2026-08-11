@@ -1,12 +1,12 @@
 {
-  "version": "0.1.4-alpha",
-  "name": "Qube Browser 0.1.4-alpha",
+  "version": "0.1.5-alpha",
+  "name": "Qube Browser 0.1.5-alpha",
   "published": "2026-08-11",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.4-alpha/Qube-0.1.4-alpha-setup.exe",
-    "size": 149282586,
-    "sha256": "7757ba5c6c57c0b6eec3ceac03c81a9f47f76deba2cccaebd36d4899d77f402b"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.5-alpha/Qube-0.1.5-alpha-setup.exe",
+    "size": 149281564,
+    "sha256": "faaf75a1109ad31d46af92ec34f3179a5efb85b2f9db0b4d44a0d238e58a4f61"
   },
-  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.4-alpha",
-  "summary": "The updater no longer downloads over the UI thread. 427 kB/s was not the network."
+  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.5-alpha",
+  "summary": "The engine now counts its frames, to settle why the content area freezes on some machines."
 }
