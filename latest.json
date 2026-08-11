@@ -1,12 +1,12 @@
 {
-  "version": "0.1.10-alpha",
-  "name": "Qube Browser 0.1.10-alpha",
+  "version": "0.1.11-alpha",
+  "name": "Qube Browser 0.1.11-alpha",
   "published": "2026-08-11",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.10-alpha/Qube-0.1.10-alpha-setup.exe",
-    "size": 149414590,
-    "sha256": "9c274bc41fa29d412f8b60c5372fb62c3c19e4b005ef8421c32b6293dcadecf7"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.11-alpha/Qube-0.1.11-alpha-setup.exe",
+    "size": 149429194,
+    "sha256": "75869db19217335ffe04ca6738d2a06a5a1ea2b3b81dd04900e0c26df9d9ba24"
   },
-  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.10-alpha",
-  "summary": "The GPU fallback now reads the blocklist itself, so machines that composite in software get a picture without any flag."
+  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.11-alpha",
+  "summary": "The GPU fallback was dead code in the last two releases; it now runs where the engine actually starts, and the engine logs what it chose."
 }
