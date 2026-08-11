@@ -1,12 +1,12 @@
 {
-  "version": "0.1.1-alpha",
-  "name": "Qube Browser 0.1.1-alpha",
+  "version": "0.1.2-alpha",
+  "name": "Qube Browser 0.1.2-alpha",
   "published": "2026-08-11",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.1-alpha/Qube-0.1.1-alpha-setup.exe",
-    "size": 149262693,
-    "sha256": "7d5d4f271be4a0d64e4e8042c32baf1d0984d1775c8298c77cf13cb580e86edc"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.2-alpha/Qube-0.1.2-alpha-setup.exe",
+    "size": 149263314,
+    "sha256": "16b3f94543d453ce7a0e93db2811f531e2165d895dc66bf41f58a38449a0860c"
   },
-  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.1-alpha",
-  "summary": "This build can update itself. Everything else is unchanged from 0.1.0, so that what arrives next is visibly the update."
+  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.2-alpha",
+  "summary": "Space dots with hover, middle-click to close a tab, a working install over a running browser, and cookies that respect host permissions."
 }
