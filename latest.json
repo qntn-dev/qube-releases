@@ -1,12 +1,12 @@
 {
-  "version": "0.1.6-alpha",
-  "name": "Qube Browser 0.1.6-alpha",
+  "version": "0.1.7-alpha",
+  "name": "Qube Browser 0.1.7-alpha",
   "published": "2026-08-11",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.6-alpha/Qube-0.1.6-alpha-setup.exe",
-    "size": 149278058,
-    "sha256": "98d39f3c464ab904a883f057050a3a7db48bc423e581c3e0dfc7151d1d58d552"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.7-alpha/Qube-0.1.7-alpha-setup.exe",
+    "size": 149410528,
+    "sha256": "ca54cc3572dda631bd705b4f71dd57a39f4e87aa05a56b7b2f7fe80cbacc2935"
   },
-  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.6-alpha",
-  "summary": "Renders on virtual desktops, no longer leaves orphaned engines behind, and updates without a wizard."
+  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.7-alpha",
+  "summary": "Clears engine processes left behind by earlier sessions, which is what kept some machines broken across restarts."
 }
