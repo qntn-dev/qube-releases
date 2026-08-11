@@ -1,12 +1,12 @@
 {
-  "version": "0.1.7-alpha",
-  "name": "Qube Browser 0.1.7-alpha",
+  "version": "0.1.9-alpha",
+  "name": "Qube Browser 0.1.9-alpha",
   "published": "2026-08-11",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.7-alpha/Qube-0.1.7-alpha-setup.exe",
-    "size": 149410528,
-    "sha256": "ca54cc3572dda631bd705b4f71dd57a39f4e87aa05a56b7b2f7fe80cbacc2935"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.9-alpha/Qube-0.1.9-alpha-setup.exe",
+    "size": 149407369,
+    "sha256": "6a43f8e909f3a06c4d97c7ec78089efdda88a2efa4e6e3f67d0bab7d1d32bf5c"
   },
-  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.7-alpha",
-  "summary": "Clears engine processes left behind by earlier sessions, which is what kept some machines broken across restarts."
+  "notes": "https://github.com/qntn-dev/qube-releases/releases/tag/v0.1.9-alpha",
+  "summary": "Extensions no longer crash the engine, and the browser stops forcing GPU drivers Chromium had blocked."
 }
