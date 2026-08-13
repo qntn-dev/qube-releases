@@ -1,12 +1,12 @@
 {
-  "version": "0.1.12-alpha",
-  "name": "Qube Browser 0.1.12-alpha",
-  "published": "2026-08-11",
+  "version": "0.1.13-alpha",
+  "name": "Qube Browser 0.1.13-alpha",
+  "published": "2026-08-13",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.12-alpha/Qube-0.1.12-alpha-setup.exe",
-    "size": 149472753,
-    "sha256": "fe4ed201632950da8f01a0569c4c908aafdffec8a92ff63591b67245157bddab"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.13-alpha/Qube-0.1.13-alpha-setup.exe",
+    "size": 149068015,
+    "sha256": "17965a2305788138c17cf45795e7ff30161d70d33e9b7af15299cd5dcc0f7ca5"
   },
-  "notes": "Fixed\n- Ad and content blockers now block. uBlock Origin Lite works.\n- Extension popups are sized from their content. Some opened too wide, showing\n  a strip of the extension's own background down the right.\n- Reopening a popup no longer shows the previous popup's picture, stretched,\n  until the new one arrives.\n- Extensions can register protocol handlers again.\n- Removed a startup flag that disabled Chromium's internal safety checks across\n  the engine.\n- The update window shows release notes, and has room for them.\n\nKnown\n- Extension popups take about a second to appear, longer for some.",
-  "summary": "Ad and content blockers now work. Extensions were never placed in the network path, so a blocker would load, run and block nothing."
+  "notes": "Faster\n- The engine is built with LTO and PGO: about 28% quicker, in layout and style\n  rather than JavaScript. On its own it now outruns Edge on Speedometer.\n- No more logging on every tenth frame, on the thread that draws.\n\nUpdates\n- Updates install silently -- no setup window.\n- A panel in the sidebar says so afterwards, with a link to what changed.\n- This window shows release notes, and has room for them.\n\nFixed\n- The command bar no longer opens by itself at launch. Ctrl+T and Ctrl+L still\n  open it.\n- An Essential's icon follows its tab instead of the site it was pinned from.\n- Essentials are drawn on whole pixels at 125% and 175% scaling.\n- Lost input and dropped tab commands are recorded instead of vanishing.\n\nKnown\n- An extension popup takes about a second to appear, longer for some.",
+  "summary": "Qube is about 28% faster: the engine is now built with link-time and profile-guided optimisation."
 }
