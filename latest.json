@@ -1,12 +1,12 @@
 {
-  "version": "0.1.13-alpha",
-  "name": "Qube Browser 0.1.13-alpha",
-  "published": "2026-08-13",
+  "version": "0.1.14-alpha",
+  "name": "Qube Browser 0.1.14-alpha",
+  "published": "2026-08-15",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.13-alpha/Qube-0.1.13-alpha-setup.exe",
-    "size": 149068015,
-    "sha256": "17965a2305788138c17cf45795e7ff30161d70d33e9b7af15299cd5dcc0f7ca5"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.14-alpha/Qube-0.1.14-alpha-setup.exe",
+    "size": 149077509,
+    "sha256": "71cf41dd984c8e9a4c1db69f0e88ef1cfbfa0217541b7eb511b7f15862c0690f"
   },
-  "notes": "Faster\n- The engine is built with LTO and PGO: about 28% quicker, in layout and style\n  rather than JavaScript. On its own it now outruns Edge on Speedometer.\n- No more logging on every tenth frame, on the thread that draws.\n\nUpdates\n- Updates install silently -- no setup window.\n- A panel in the sidebar says so afterwards, with a link to what changed.\n- This window shows release notes, and has room for them.\n\nFixed\n- The command bar no longer opens by itself at launch. Ctrl+T and Ctrl+L still\n  open it.\n- An Essential's icon follows its tab instead of the site it was pinned from.\n- Essentials are drawn on whole pixels at 125% and 175% scaling.\n- Lost input and dropped tab commands are recorded instead of vanishing.\n\nKnown\n- An extension popup takes about a second to appear, longer for some.",
-  "summary": "Qube is about 28% faster: the engine is now built with link-time and profile-guided optimisation."
+  "notes": "Rendering\n- A blank window now says so. The engine published a shared surface even when\n  nothing had been bound to it, so the shell mounted one that could never\n  receive a pixel -- and the \"nothing is being drawn\" notice was suppressed\n  along with it. Both fixed.\n\nSecurity\n- A Web Store install is bound to the prompt you saw: approving records the\n  extension id and manifest, and the install refuses anything that does not\n  match.\n- Installers may only come from the release origin.\n- Two internal pipes are restricted to your own account.\n- Releases record the engine and shell commit they were built from.\n\nOther\n- Engine logging can be switched off with QBROWSER_NO_ENGINE_LOG=1. It is on by\n  default, writes continuously, and contains the urls you visit.\n- Lost input is recorded instead of vanishing.\n\nKnown\n- An extension popup takes about a second to appear.\n- There is no fallback if shared-surface rendering fails.",
+  "summary": "A security and rendering release. The one worth testing on an unusual adapter: a blank window now explains itself instead of staying silent."
 }
