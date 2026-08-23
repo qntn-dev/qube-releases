@@ -1,12 +1,12 @@
 {
-  "version": "0.1.17-alpha",
-  "name": "Qube Browser 0.1.17-alpha",
+  "version": "0.2.0",
+  "name": "Qube Browser 0.2.0",
   "published": "2026-08-23",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.1.17-alpha/Qube-0.1.17-alpha-setup.exe",
-    "size": 149185904,
-    "sha256": "6005aff844255182f6594432ecf0e30a3fec23e4a61b05818eecc28bdd7f7cc5"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.2.0/Qube-0.2.0-setup.exe",
+    "size": 149157582,
+    "sha256": "1020a1b5fc83a74e75d131b5e9dbab0c4acf1f1a6a85413bea3203a297d288cb"
   },
-  "notes": "Splitscreen, settled\n\nThis release is about the split feeling right.\n\n- Dragging the divider is far smoother. The divider, the bars and the outline\n  follow your pointer exactly, without stutter.\n- Leaving a split no longer leaves you on a black page.\n- After a restart, the split remembers which half you were working in.\n- The outline around your working half sits exactly on the page's edge.\n\nKnown\n\n- While you drag the divider, the page itself refills a moment behind your\n  pointer, most noticeably on heavy pages.\n- You still cannot make a split by dragging a tab onto the page, nor by\n  Alt-clicking a link. Right-click a tab and choose Split Right.\n- A split restored from a previous session appears once you click either half.\n- In Mac style, hovering the green dot does not open Windows' snap-layout\n  menu. Windows style keeps it.\n- A download does not yet say which site it came from.\n- An extension popup still takes about a second to appear.",
-  "summary": "Splitscreen, settled: dragging the divider is far smoother, leaving a split works cleanly, and the split remembers which half you were in."
+  "notes": "Added:\n\n* Proper split view up to 4 pages at the same time\n* Spaces, separate browser profiles but reachable easily\n* Mac-mode on Windows, basically another theme\n* Library, one place where you can view your downloads, history and more to come\n\nImproved:\n\n* Extension support\n* Site permission popups\n* Resizing split views",
+  "summary": "Split view up to 4 pages, Spaces, Mac-mode on Windows, and the Library."
 }
