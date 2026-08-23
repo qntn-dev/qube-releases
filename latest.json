@@ -1,12 +1,12 @@
 {
-  "version": "0.2.0",
-  "name": "Qube Browser 0.2.0",
+  "version": "0.2.0.1",
+  "name": "Qube Browser 0.2.0.1",
   "published": "2026-08-23",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.2.0/Qube-0.2.0-setup.exe",
-    "size": 149157582,
-    "sha256": "1020a1b5fc83a74e75d131b5e9dbab0c4acf1f1a6a85413bea3203a297d288cb"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.2.0.1/Qube-0.2.0.1-setup.exe",
+    "size": 149147303,
+    "sha256": "4f5be3f5f4e1331a0dccc93337d71b0f25e26893704ca0c011be200832562354"
   },
-  "notes": "Added:\n\n* Proper split view up to 4 pages at the same time\n* Spaces, separate browser profiles but reachable easily\n* Mac-mode on Windows, basically another theme\n* Library, one place where you can view your downloads, history and more to come\n\nImproved:\n\n* Extension support\n* Site permission popups\n* Resizing split views",
+  "notes": "Added:\n\n* Proper split view up to 4 pages at the same time\n* Spaces, separate browser profiles but reachable easily\n* Mac-mode on Windows, basically another theme\n* Library, one place where you can view your downloads, history and more to come\n\nImproved:\n\n* Extension support\n* Site permission popups\n* Resizing split views\n* Pane bars now run the full width of their page in Windows mode",
   "summary": "Split view up to 4 pages, Spaces, Mac-mode on Windows, and the Library."
 }
