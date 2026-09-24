@@ -1,12 +1,12 @@
 {
-  "version": "0.2.0.1",
-  "name": "Qube Browser 0.2.0.1",
-  "published": "2026-08-23",
+  "version": "0.3.0",
+  "name": "Qube Browser 0.3.0",
+  "published": "2026-09-24",
   "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.2.0.1/Qube-0.2.0.1-setup.exe",
-    "size": 149147303,
-    "sha256": "4f5be3f5f4e1331a0dccc93337d71b0f25e26893704ca0c011be200832562354"
+    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.3.0/Qube-0.3.0-setup.exe",
+    "size": 149339082,
+    "sha256": "ae63ebc126f32242de57990b09b7e522b643daa956c68035924ab5bfe7dfef1f"
   },
-  "notes": "Added:\n\n* Proper split view up to 4 pages at the same time\n* Spaces, separate browser profiles but reachable easily\n* Mac-mode on Windows, basically another theme\n* Library, one place where you can view your downloads, history and more to come\n\nImproved:\n\n* Extension support\n* Site permission popups\n* Resizing split views\n* Pane bars now run the full width of their page in Windows mode",
-  "summary": "Split view up to 4 pages, Spaces, Mac-mode on Windows, and the Library."
+  "notes": "Added:\n\n* New layout: the page as a card, the address above it\n* Collapsible sidebar (Ctrl+B) that floats out from the edge\n* Peek: open a link in a floating card over the page\n* New Library: History, Downloads, Spaces and Media\n* Download card above the Library button\n* Two-finger swipe between Spaces\n* Set Qube as your default browser\n* Idle tabs are archived\n* History per Space\n* Switch to an open tab from the command bar\n\nImproved:\n\n* Essentials: your Space's colours, smoother, more than one per site\n* Drag and drop in every direction, including your first pin\n* Closing a tab goes back to the previous one\n* Site icons come from the site itself\n* Search suggestions: pick a service, off by default\n* The command bar opens where you clicked\n\nFixed:\n\n* Empty page when started from the Start menu\n* Sideways scrolling went up and down\n* A tab could show up twice\n\nRemoved:\n\n* Mac-mode\n* Essentials and Archived Tabs in the Library\n\nKnown:\n\n* No private browsing yet\n* One window only\n* Touchpad swipe is untested\n* Some extensions, like 1Password, don't work yet",
+  "summary": "A new layout, Peek, the new Library, and Essentials in your Space's colours."
 }
