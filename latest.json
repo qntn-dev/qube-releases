@@ -10,15 +10,15 @@
   "notes": "Added:\n\n* New layout: the page as a card, the address above it\n* Collapsible sidebar (Ctrl+B) that floats out from the edge\n* Peek: open a link in a floating card over the page\n* New Library: History, Downloads, Spaces and Media\n* Download card above the Library button\n* Two-finger swipe between Spaces\n* Set Qube as your default browser\n* Idle tabs are archived\n* History per Space\n* Switch to an open tab from the command bar\n\nImproved:\n\n* Essentials: your Space's colours, smoother, more than one per site\n* Drag and drop in every direction, including your first pin\n* Closing a tab goes back to the previous one\n* Site icons come from the site itself\n* Search suggestions: pick a service, off by default\n* The command bar opens where you clicked\n\nFixed:\n\n* Empty page when started from the Start menu\n* Sideways scrolling went up and down\n* A tab could show up twice\n\nRemoved:\n\n* Mac-mode\n* Essentials and Archived Tabs in the Library\n\nKnown:\n\n* No private browsing yet\n* One window only\n* Touchpad swipe is untested\n* Some extensions, like 1Password, don't work yet",
   "summary": "A new layout, Peek, the new Library, and Essentials in your Space's colours.",
   "mac": {
-    "version": "0.2.0",
-    "name": "Qube for Mac 0.2.0",
+    "version": "0.3.0",
+    "name": "Qube for Mac 0.3.0",
     "published": "2026-09-26",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.2.0/Qube-0.2.0-mac.zip",
-      "size": 5463191,
-      "sha256": "325589caf1b3bfcfe814d4db9d992677b22dcbeff3cd0b51077931a95b5689ca"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.3.0/Qube-0.3.0-mac.zip",
+      "size": 6066768,
+      "sha256": "906f3c64a87e65bd07edf3fc2c18a6591d6df02d10ad4dd37a5e39fed77162e9"
     },
-    "notes": "Added:\n\n* Spaces with their own colours, Essentials, pinned tabs and folders in the sidebar\n* Profiles: Spaces can share cookies and logins, or keep their own\n* Peek: open a link in a floating card over the page\n* The Library: Media, Downloads, Spaces, Archived Tabs\n* History as a page (Shift-Cmd-H)\n* Qube Spark on Apple Intelligence: hold Shift over a link for a preview, Tidy groups your tabs\n* Tab groups\n* Link routing: links from other apps open in the Space you choose\n* Your own emoji or symbol on tabs, Essentials and folders\n* Music notes over an Essential that plays sound\n* Mute a tab by clicking its icon\n* Picture in picture when you switch away from a playing video\n* Site notifications\n* Built-in ad blocking and Vaultbridge\n* HTTP sign-in (Basic, Digest, NTLM)\n* Private windows and more than one window\n* Updates from inside Qube\n\nImproved:\n\n* Restored tabs load when you first look at them\n* Tabs you have not looked at in a while are unloaded when memory runs low\n* Cmd-R reloads from the cache; Shift-Cmd-R reloads everything\n* The window appears once the page is drawn\n\nKnown:\n\n* Some of this has not been tried by anyone but its maker yet",
-    "summary": "The first Qube for Mac: Spaces and profiles, Peek, Qube Spark on Apple Intelligence, and updates from inside Qube."
+    "notes": "Added:\n\n* Import from Arc and Zen: Spaces, Essentials, pinned tabs, folders, open tabs and history. Add to what you have, or replace everything (Settings > General > Import)\n* A setup wizard on first launch, after Zen's welcome: import, colours, search engine, ad blocker, Essentials, previews and default browser\n* Run Setup Again in Settings > About\n\nKnown:\n\n* The setup wizard only opens by itself on a new install",
+    "summary": "Import from Arc and Zen, and a setup wizard for new installs."
   }
 }
