@@ -18,7 +18,7 @@
       "size": 6066768,
       "sha256": "906f3c64a87e65bd07edf3fc2c18a6591d6df02d10ad4dd37a5e39fed77162e9"
     },
-    "notes": "Added:\n\n* Import from Arc and Zen: Spaces, Essentials, pinned tabs, folders, open tabs and history. Add to what you have, or replace everything (Settings > General > Import)\n* A setup wizard on first launch, after Zen's welcome: import, colours, search engine, ad blocker, Essentials, previews and default browser\n* Run Setup Again in Settings > About\n\nKnown:\n\n* The setup wizard only opens by itself on a new install",
+    "notes": "Added:\n\n* Import from Arc and Zen: Spaces, Essentials, pinned tabs, folders, open tabs and history. Add to what you have, or replace everything (Settings > General > Import)\n* A setup wizard on first launch: import, colours, search engine, ad blocker, Essentials, previews and default browser\n* Run Setup Again in Settings > About\n\nKnown:\n\n* The setup wizard only opens by itself on a new install",
     "summary": "Import from Arc and Zen, and a setup wizard for new installs."
   }
 }
