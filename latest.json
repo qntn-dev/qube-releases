@@ -10,15 +10,15 @@
   "notes": "Added:\n\n* New layout: the page as a card, the address above it\n* Collapsible sidebar (Ctrl+B) that floats out from the edge\n* Peek: open a link in a floating card over the page\n* New Library: History, Downloads, Spaces and Media\n* Download card above the Library button\n* Two-finger swipe between Spaces\n* Set Qube as your default browser\n* Idle tabs are archived\n* History per Space\n* Switch to an open tab from the command bar\n\nImproved:\n\n* Essentials: your Space's colours, smoother, more than one per site\n* Drag and drop in every direction, including your first pin\n* Closing a tab goes back to the previous one\n* Site icons come from the site itself\n* Search suggestions: pick a service, off by default\n* The command bar opens where you clicked\n\nFixed:\n\n* Empty page when started from the Start menu\n* Sideways scrolling went up and down\n* A tab could show up twice\n\nRemoved:\n\n* Mac-mode\n* Essentials and Archived Tabs in the Library\n\nKnown:\n\n* No private browsing yet\n* One window only\n* Touchpad swipe is untested\n* Some extensions, like 1Password, don't work yet",
   "summary": "A new layout, Peek, the new Library, and Essentials in your Space's colours.",
   "mac": {
-    "version": "0.3.0",
-    "name": "Qube for Mac 0.3.0",
+    "version": "0.3.1",
+    "name": "Qube for Mac 0.3.1",
     "published": "2026-09-26",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.3.0/Qube-0.3.0-mac.zip",
-      "size": 6066768,
-      "sha256": "906f3c64a87e65bd07edf3fc2c18a6591d6df02d10ad4dd37a5e39fed77162e9"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.3.1/Qube-0.3.1-mac.zip",
+      "size": 6119144,
+      "sha256": "2da9a5afd6dfcc8b849a6ad0b872fcdb8dc98e67baf561fb658bb85b1da9e9c7"
     },
-    "notes": "Added:\n\n* Import from Arc and Zen: Spaces, Essentials, pinned tabs, folders, open tabs and history. Add to what you have, or replace everything (Settings > General > Import)\n* A setup wizard on first launch: import, colours, search engine, ad blocker, Essentials, previews and default browser\n* Run Setup Again in Settings > About\n\nKnown:\n\n* The setup wizard only opens by itself on a new install",
-    "summary": "Import from Arc and Zen, and a setup wizard for new installs."
+    "notes": "Added:\n\n* Choose your download folder (Settings > General > Downloads)\n* Folders take the colours of their Space\n* Reveal Tab in Sidebar, from the command bar and the page menu\n* Site search: type a site's name, press Tab, and search that site\n\nFixed:\n\n* Updating from inside Qube stopped at 0 %\n* Pinned tabs and folders were lost after a restart when Restore Session was off\n* The sign-in window for a proxy now says it is the proxy asking",
+    "summary": "Updates that actually install, your own download folder, site search and Reveal Tab."
   }
 }
