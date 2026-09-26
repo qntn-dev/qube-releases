@@ -10,15 +10,15 @@
   "notes": "Added:\n\n* New layout: the page as a card, the address above it\n* Collapsible sidebar (Ctrl+B) that floats out from the edge\n* Peek: open a link in a floating card over the page\n* New Library: History, Downloads, Spaces and Media\n* Download card above the Library button\n* Two-finger swipe between Spaces\n* Set Qube as your default browser\n* Idle tabs are archived\n* History per Space\n* Switch to an open tab from the command bar\n\nImproved:\n\n* Essentials: your Space's colours, smoother, more than one per site\n* Drag and drop in every direction, including your first pin\n* Closing a tab goes back to the previous one\n* Site icons come from the site itself\n* Search suggestions: pick a service, off by default\n* The command bar opens where you clicked\n\nFixed:\n\n* Empty page when started from the Start menu\n* Sideways scrolling went up and down\n* A tab could show up twice\n\nRemoved:\n\n* Mac-mode\n* Essentials and Archived Tabs in the Library\n\nKnown:\n\n* No private browsing yet\n* One window only\n* Touchpad swipe is untested\n* Some extensions, like 1Password, don't work yet",
   "summary": "A new layout, Peek, the new Library, and Essentials in your Space's colours.",
   "mac": {
-    "version": "0.3.1",
-    "name": "Qube for Mac 0.3.1",
+    "version": "0.3.2",
+    "name": "Qube for Mac 0.3.2",
     "published": "2026-09-26",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.3.1/Qube-0.3.1-mac.zip",
-      "size": 6119144,
-      "sha256": "2da9a5afd6dfcc8b849a6ad0b872fcdb8dc98e67baf561fb658bb85b1da9e9c7"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.3.2/Qube-0.3.2-mac.zip",
+      "size": 6308399,
+      "sha256": "4cd7fd3dd60909427d6ef51d8f825948dd8cab758e00ed849956ff07c82aa402"
     },
-    "notes": "Added:\n\n* Choose your download folder (Settings > General > Downloads)\n* Folders take the colours of their Space\n* Reveal Tab in Sidebar, from the command bar and the page menu\n* Site search: type a site's name, press Tab, and search that site\n\nFixed:\n\n* Updating from inside Qube stopped at 0 %\n* Pinned tabs and folders were lost after a restart when Restore Session was off\n* The sign-in window for a proxy now says it is the proxy asking",
-    "summary": "Updates that actually install, your own download folder, site search and Reveal Tab."
+    "notes": "Added:\n\n* Create a Space in the sidebar: name, icon, profile and theme, before it is made\n* Collapse your pinned tabs: click the Space's name\n* Hold the mouse button on the Space buttons and sweep across them to go through your Spaces\n* The Library has icons of its own that move when you choose a section, in your Space's colour\n* The Library button is a toy box: point at it and its stars come up\n\nChanged:\n\n* The sidebar follows Zen's sizes, spacing, corners and colours, without glass on glass\n* Switching Spaces slides the old one out as the new one comes in, over half a second\n* Clear and Tidy stay under your pinned tabs instead of scrolling away\n* The URL bar stays put when you switch Spaces\n* A new Space's empty Essentials area is no taller than a row of Essentials\n\nFixed:\n\n* Importing from Zen put every Essential in every Space\n* Importing from Arc gave some Spaces the wrong colours\n* The Library's section buttons stretched to the window's height\n* On a click, the new Space showed over the old one for a moment before it slid in\n\nKnown:\n\n* To fix an earlier import, import again and choose Replace",
+    "summary": "A sidebar that looks and moves more like Zen's, and a Library of Qube's own."
   }
 }
