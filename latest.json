@@ -18,7 +18,7 @@
                               "size":  9790460,
                               "sha256":  "1c57914d5c0a0a2436d251e1cbe3adf4dc1e9d1600f3d211dc4448ed99164d8c"
                 },
-                "notes":  "New:\n\n* Little Qube: links from other apps open in a small window; press \u2318O to keep one in a Space\n* Streaming Space: your streaming services in one place, signed in once\n* Notes: write or draw, right in your sidebar (\u2303\u21e7E)\n* Music: your Apple Music library, with lyrics, inside Qube\n* Share your screen in Teams, Google Meet and other sites\n* Hold Shift over a link for a quick summary of the page\n\nBetter:\n\n* New menus, sharper icons and a calmer look throughout\n* Drag the window from anywhere in the sidebar\n* Pinned tabs always stay in view\n\nFixed:\n\n* Qube no longer asks for your keychain password after an update\n* A crash when dropping a tab on your Essentials",
-                "summary":  "Little Qube, a Streaming Space, Notes and Music."
+                "notes":  "New:\n\n* Little Qube: links from other apps open in a small window; press \u2318O to keep one in a Space\n* Streaming Space: your streaming services in one place, signed in once\n* Notes: write or draw, right in your sidebar (\u2303\u21e7E)\n* Share your screen in Teams, Google Meet and other sites\n\nBetter:\n\n* New menus, sharper icons and a calmer look throughout\n* Drag the window from anywhere in the sidebar\n* Pinned tabs always stay in view\n\nFixed:\n\n* Qube no longer asks for your keychain password after an update\n* A crash when dropping a tab on your Essentials",
+                "summary":  "Little Qube, a Streaming Space and Notes."
             }
 }
