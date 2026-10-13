@@ -1,24 +1,24 @@
 {
-    "version":  "0.5.1",
-    "name":  "Qube Browser 0.5.1",
-    "published":  "2026-10-12",
-    "setup":  {
-                  "url":  "https://github.com/qntn-dev/qube-releases/releases/download/v0.5.1/Qube-0.5.1-setup.exe",
-                  "size":  440505545,
-                  "sha256":  "1ac106bc6eb284e5dac84e552665186c3417b2dcf1f81a30d630e5e66ae26411"
-              },
-    "notes":  "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
-    "summary":  "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
-    "mac":  {
-                "version":  "0.7.0",
-                "name":  "Qube for Mac 0.7.0",
-                "published":  "2026-10-12",
-                "setup":  {
-                              "url":  "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.7.0/Qube-0.7.0-mac.zip",
-                              "size":  11769197,
-                              "sha256":  "1ced6a6ff942a2602c8144b6f714c7fa34e5f5bb3684c4df3d3ce708cc982dc8"
-                          },
-                "notes":  "Added:\n\n* The command bar puts the best match first: an open tab, a command or a site, with your search right below it\n* The command bar\u0027s list holds still while you type, and the rows under the first change once, when suggestions arrive\n* Site search: type a site\u0027s name or let it complete (spoti → spotify.com) and press Tab; Spotify joins the sites\n* A colour flash as site search starts, and a small tap as you go in or out with Tab or Escape\n* Escape leaves Ask and site search for the ordinary command bar\n* The command bar and the small one in the sidebar in new sizes, with keyboard shortcuts beside commands\n* Find on Page can answer questions about the page: turn it on in Settings › Qube Spark, and ⌘F asks instead of searching\n* PDFs: download, print or open in Preview from a bar on the PDF, Download PDF in the page menu and the command bar, and ⇧⌘S saves the file itself\n* Each profile has its own search engine, suggestions, archive time and download folder\n* Edit › Spelling and Grammar and Substitutions, to turn spell checking off\n* Settings in a new window, with tabs in the toolbar\n\nFixed:\n\n* Pointing at the Library button hid half of the tabs in the sidebar\n* Cards and Settings had a brown tint\n* The find bar\u0027s ends were oddly shaped",
-                "summary":  "A calmer, faster command bar, Find on Page that asks, and PDFs you can keep."
-            }
+    "version": "0.5.1",
+    "name": "Qube Browser 0.5.1",
+    "published": "2026-10-12",
+    "setup": {
+        "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.5.1/Qube-0.5.1-setup.exe",
+        "size": 440505545,
+        "sha256": "1ac106bc6eb284e5dac84e552665186c3417b2dcf1f81a30d630e5e66ae26411"
+    },
+    "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
+    "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
+    "mac": {
+        "version": "0.7.1",
+        "name": "Qube for Mac 0.7.1",
+        "published": "2026-10-13",
+        "setup": {
+            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.7.1/Qube-0.7.1-mac.zip",
+            "size": 11804352,
+            "sha256": "f8fb392313deb6b567583f9d96639a44bd46bfaeecf52ec3557ab2f36eee4a1a"
+        },
+        "notes": "Added:\n\n* Qube asks before it quits, with Cancel and Quit; turn it off in Settings › General › Ask Before Quitting\n\nFixed:\n\n* Peek (Option, Shift or Command with a click) did nothing on links a site handles itself and on tiles that open a page with a script, as in sign-in portals with redirects",
+        "summary": "Peek now works on sign-in portals, and Qube asks before it quits."
+    }
 }
