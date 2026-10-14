@@ -10,15 +10,15 @@
     "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
     "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
     "mac": {
-        "version": "0.8.3",
-        "name": "Qube for Mac 0.8.3",
+        "version": "0.8.4",
+        "name": "Qube for Mac 0.8.4",
         "published": "2026-10-14",
         "setup": {
-            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.8.3/Qube-0.8.3-mac.zip",
-            "size": 168065729,
-            "sha256": "7d08b3b4a81e07d3f1ab4139ee7b34e226cfc2e7a9006535dd4405cac9e8d343"
+            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.8.4/Qube-0.8.4-mac.zip",
+            "size": 168064871,
+            "sha256": "47bc06f546e9930d76b09bdb7bea44c5906a4d6829ea1275f6d5a2dce59e6a94"
         },
-        "notes": "Fixed:\n\n* With Translucent or Liquid Glass, Qube kept the graphics chip busy (up to 80 %) whenever anything moved in its window; now it rests\n* Translucent is lighter and more see-through\n* Pages get exact frame times, and testufo.com no longer reports a sync failure",
-        "summary": "Qube uses far less of your graphics chip, and testufo is happy."
+        "notes": "Fixed:\n\n* Sites that keep your sign-in in a cookie without an expiry date (many business tools) signed you out every time Qube restarted, an update included; they now stay signed in, as in Chrome. Sign in once more where it already happened",
+        "summary": "Sign-ins stay after Qube restarts or updates."
     }
 }
