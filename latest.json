@@ -10,15 +10,15 @@
     "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
     "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
     "mac": {
-        "version": "0.7.2",
-        "name": "Qube for Mac 0.7.2",
+        "version": "0.8.0",
+        "name": "Qube for Mac 0.8.0",
         "published": "2026-10-14",
         "setup": {
-            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.7.2/Qube-0.7.2-mac.zip",
-            "size": 11804766,
-            "sha256": "4c74c35b79a0a2c89dd8fa83a6e012759e244057d8b944b8fb65a05780f9a7a5"
+            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.8.0/Qube-0.8.0-mac.zip",
+            "size": 168044822,
+            "sha256": "ae7709c2d1614e0f9d0f799aa2b968a2b37ade17961b623a108362544e047c1d"
         },
-        "notes": "Fixed:\n\n* The rim round the chosen Essential is even on every side, with no faint white line along it\n* That rim keeps the same colour in every Space; only the tile's inside takes the Space's colour\n* The chosen Essential is no longer bright white in light mode: it takes a little of the Space's colour, and a little less of it in dark mode",
-        "summary": "The chosen Essential looks calmer and sharper."
+        "notes": "Added:\n\n* Pages run on Chromium: Chrome extensions work, with their buttons, popups and keyboard shortcuts\n* The first start takes your sign-ins along from each profile, so the sites you were signed in to stay signed in; a site that keeps its sign-in elsewhere asks once more\n* A new tab shows the address it is opening while the page loads\n* A site's permission question stays until you answer it; clicking in the page no longer dismisses it\n\nMedia tabs and the Streaming Space play as they did.",
+        "summary": "Qube now shows web pages with Chromium, the engine Chrome is built on."
     }
 }
