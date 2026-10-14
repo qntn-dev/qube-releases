@@ -10,15 +10,15 @@
     "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
     "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
     "mac": {
-        "version": "0.8.1",
-        "name": "Qube for Mac 0.8.1",
+        "version": "0.8.2",
+        "name": "Qube for Mac 0.8.2",
         "published": "2026-10-14",
         "setup": {
-            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.8.1/Qube-0.8.1-mac.zip",
-            "size": 168050210,
-            "sha256": "4cd39c8f874d0cfce31b8808d82e3d0eb707f15a7f2c647e5318a97a434262a6"
+            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.8.2/Qube-0.8.2-mac.zip",
+            "size": 168062870,
+            "sha256": "6871c2752e2afaea5fdcb332145d6f2f2cf67efa2bd548d40e1f610a197faec0"
         },
-        "notes": "Fixed:\n\n* Control, Shift, Option and Command pressed on their own reach the page, as in Chrome, so a remote desktop in a page (as in Datto RMM) receives Ctrl+V and pastes what you copied on your Mac",
-        "summary": "Pasting from your Mac into a remote desktop works."
+        "notes": "Fixed:\n\n* A page hears when Qube's window becomes active or inactive, as in Chrome, so a remote desktop in a page (as in Datto RMM) takes your newest clipboard instead of an older one\n* Hover effects in a page end when the pointer leaves it",
+        "summary": "Pasting into a remote desktop takes what you copied last."
     }
 }
