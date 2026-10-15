@@ -10,15 +10,15 @@
   "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
   "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
   "mac": {
-    "version": "0.9.0",
-    "name": "Qube for Mac 0.9.0",
+    "version": "0.9.1",
+    "name": "Qube for Mac 0.9.1",
     "published": "2026-10-15",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.9.0/Qube-0.9.0-mac.zip",
-      "size": 168233418,
-      "sha256": "5328d7a1414805e595e2ff1f319148bfc7687828c0e521dfbce7901cb45979b5"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.9.1/Qube-0.9.1-mac.zip",
+      "size": 168245079,
+      "sha256": "94969ce15f297caa9a39cd152a983bdcd0f36d8ba2942828b6d3b2060365f195"
     },
-    "notes": "New:\n\n* Page menu: the button in the address bar opens Share, Capture, Capture Full Page, your extensions with a pin on each, and the site's settings (Developer Mode, Block Ads & Trackers, permissions you can switch between allowed and blocked)\n* Capture: drag over part of a page, or take the full page; the picture goes to the clipboard, and a bubble at the top right offers Save and Share\n* Developer Mode: on by itself for localhost, remembered per site; the tab gets a dashed outline and a toolbar with Copy Link, Capture, Console, Network, Inspect Element, extensions and Split View. View > Developer or Control-D switches it\n* Pinned extensions sit in a grid in the sidebar, as on Windows\n\nChanged:\n\n* The address bar lights up as soon as the pointer is anywhere over the sidebar; no lock icon, and its buttons are drawn as Qube's own icons\n* Menus in dark mode take the Space's colour and are darker; the shortcut on the chosen row stays readable, and every menu stays inside its window\n* Settings use the normal macOS choice lists again; the Space form's profile list looks like Little Qube's\n* Dragging tabs in the sidebar was rebuilt and follows the pointer as Essentials do\n* Peek opens straight away on Option-click\n\nFixed:\n\n* With Translucent or Liquid Glass, Qube no longer keeps the graphics chip busy when something moves\n* Keys such as Control, Shift, Option and Command alone, key repeat and tooltips now reach pages",
-    "summary": "The page menu, Capture and Developer Mode, as Arc has them."
+    "notes": "Changed:\n\n* Peek opens from the link as Arc's: the card grows into place without stretching the page\n* Open as Tab puts the page in place at once with a small pop; Split shows both halves at once; Replace Current Tab keeps the Peek up until the page is there, so the old page no longer shows in between\n* The buttons beside a Peek are light in light mode and dark in dark mode\n* The \"Update Complete\" card is white (or dark) with the Space's colour for What's New\n\nFixed:\n\n* In dark mode a page that was still loading, a Peek included, showed white; it is now dark until the site draws\n* Pinned extensions' icons that change per page were blurry; they are sharp now, and their tiles have the Mac's rounded corners",
+    "summary": "Peek moves as Arc's, and pages no longer flash white in dark mode."
   }
 }
