@@ -10,15 +10,15 @@
   "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
   "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
   "mac": {
-    "version": "0.9.1",
-    "name": "Qube for Mac 0.9.1",
+    "version": "0.9.2",
+    "name": "Qube for Mac 0.9.2",
     "published": "2026-10-15",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.9.1/Qube-0.9.1-mac.zip",
-      "size": 168245079,
-      "sha256": "94969ce15f297caa9a39cd152a983bdcd0f36d8ba2942828b6d3b2060365f195"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.9.2/Qube-0.9.2-mac.zip",
+      "size": 168294024,
+      "sha256": "6d913e5e84d2cf82d682f3083c671ed16bcea9517b74e10f184e86596286a837"
     },
-    "notes": "Changed:\n\n* Peek opens from the link as Arc's: the card grows into place without stretching the page\n* Open as Tab puts the page in place at once with a small pop; Split shows both halves at once; Replace Current Tab keeps the Peek up until the page is there, so the old page no longer shows in between\n* The buttons beside a Peek are light in light mode and dark in dark mode\n* The \"Update Complete\" card is white (or dark) with the Space's colour for What's New\n\nFixed:\n\n* In dark mode a page that was still loading, a Peek included, showed white; it is now dark until the site draws\n* Pinned extensions' icons that change per page were blurry; they are sharp now, and their tiles have the Mac's rounded corners",
-    "summary": "Peek moves as Arc's, and pages no longer flash white in dark mode."
+    "notes": "New:\n\n* Passkeys and Chrome's other questions (security keys, extension prompts) appear over the page instead of somewhere off screen\n* The Chrome Web Store's Remove asks \"Remove “X”?\" in Qube; a failed extension install says so with Chrome's reason\n* Find (⌘F): typing finds on the page as in any browser; Return asks Qube Spark when Ask on Page is on\n\nChanged:\n\n* Open as Tab from a Peek keeps the page where it is, as Zen does, without reloading it\n* The page menu grows with its content, and its ••• menu is the macOS menu\n* Pinned extension icons are as sharp as Chrome's\n\nFixed:\n\n* The mouse's back and forward buttons go back and forward\n* Dragging a tab onto a folder puts it in: a closed folder opens at once and lights up; dragging the last tab out shuts it\n* Hover in the sidebar no longer sticks to rows while scrolling\n* The buttons beside a Peek disappear with it when it closes",
+    "summary": "Chrome's own windows show again, mouse back and forward buttons work, and dragging into folders is back."
   }
 }
