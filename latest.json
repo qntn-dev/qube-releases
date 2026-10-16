@@ -10,15 +10,15 @@
   "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
   "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
   "mac": {
-    "version": "0.9.4",
-    "name": "Qube for Mac 0.9.4",
+    "version": "0.9.5",
+    "name": "Qube for Mac 0.9.5",
     "published": "2026-10-16",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.9.4/Qube-0.9.4-mac.zip",
-      "size": 168302218,
-      "sha256": "5d35f70e9ace16863ac63b32a3523f10b99ef3a417bc8a9015b2b7e3e068c236"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.9.5/Qube-0.9.5-mac.zip",
+      "size": 168400976,
+      "sha256": "0b096e2a65c4b3c923e6227ac408dfb4dbc56ad5c1ae8c4772f216941949a712"
     },
-    "notes": "Changed:\n\n* Closing a pinned tab removes it (Command-Shift-T brings it back) instead of turning it into an ordinary tab; off its page, the minus still brings it back to its page\n* A link you open in a new tab from a Today tab lands right under that tab\n* Sidebar text takes on your Space's colour as Arc's does, a little deeper and more colourful\n* A pinned tab away from its page shows a bolder slash, spaced as Arc's\n* Sidebar rows are half a point shorter, as Arc's\n\nFixed:\n\n* Streams that draw their own pointer (cursor: none) no longer show the Mac's arrow on top of it",
-    "summary": "The sidebar looks more like Arc's, pinned tabs close for real, and links from a tab open right under it."
+    "notes": "New:\n\n* A site's notification puts a red dot on its tab's icon until you open it, runs a streak of light round its Essential, and blinks its Space's button when you are in another Space\n* Folders and pinned tabs can stand in any order, and folders can be dragged; an open folder folds while you drag it\n* Dragging over the Space's name puts a tab at the top of the pinned tabs\n\nChanged:\n\n* Peek grows from the link you clicked and shrinks back to it when it closes\n* Replace Current Tab waits for the page to draw, then the Peek fades over it; Split happens in one go\n* Escape closes a Peek again, and the keyboard is back on the page after a Peek closes or opens as a tab\n* A path typed or pasted in the command bar opens the file\n* The active Essential's coloured rim is half a point wider\n\nFixed:\n\n* A short notification sound no longer brings up the mini player or music notes\n* The main window no longer turns white when a page in another window opens a link in a new tab\n* A tab dragged past a folder no longer ends up inside it\n* Dragging a folder no longer leaves a huge empty space: it moves just like a tab\n* Sites with only an SVG icon show their icon",
+    "summary": "Smoother Peeks, notifications you can see in the sidebar, and folders that move like Arc's."
   }
 }
