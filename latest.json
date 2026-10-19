@@ -16,7 +16,7 @@
     "setup": {
       "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.8/Qube-0.10.8-mac.zip",
       "size": 171769193,
-      "sha256": "Hash type=sha256 size=32"
+      "sha256": "b226bd4bd79ac27d757f0a50bfb02aed2ad42cb7d919b84449ce3a5d9cd56ce1"
     },
     "notes": "Fixed:\n\n* The online status dot on the Teams tile is read every two seconds instead of every fifteen",
     "summary": "The Teams status dot follows your status faster."
