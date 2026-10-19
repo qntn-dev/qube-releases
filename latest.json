@@ -10,15 +10,15 @@
   "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
   "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
   "mac": {
-    "version": "0.10.5",
-    "name": "Qube for Mac 0.10.5",
+    "version": "0.10.6",
+    "name": "Qube for Mac 0.10.6",
     "published": "2026-10-19",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.5/Qube-0.10.5-mac.zip",
-      "size": 171754237,
-      "sha256": "255a6918e074255eb19ab28a4a569ea3c4a3c207bd227f8c91eaf436a47ac57f"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.6/Qube-0.10.6-mac.zip",
+      "size": 171769236,
+      "sha256": "4ca034936e011042e0c683ea8909b35b1a6cedd6f96456296b91df904e7bf5be"
     },
-    "notes": "Fixed:\n\n* Empty ad slots are hidden again on the Chromium engine, by one small script that looks up the page's own site, so pages load as fast as without it",
-    "summary": "The ad blocker hides empty ad slots again."
+    "notes": "New:\n\n* An Essential that is Teams shows your online status as a coloured dot on its icon: green available, red busy or do not disturb, yellow away, grey offline\n\nFixed:\n\n* The Inspect Element button in Developer Mode now starts picking an element when DevTools opens, instead of only opening DevTools",
+    "summary": "Your Teams status shows on its tile, and Inspect Element picks again."
   }
 }
