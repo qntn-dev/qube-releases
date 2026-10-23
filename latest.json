@@ -10,15 +10,15 @@
   "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
   "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
   "mac": {
-    "version": "0.10.12",
-    "name": "Qube for Mac 0.10.12",
-    "published": "2026-10-21",
+    "version": "0.10.13",
+    "name": "Qube for Mac 0.10.13",
+    "published": "2026-10-23",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.12/Qube-0.10.12-mac.zip",
-      "size": 171918653,
-      "sha256": "ab2d5458146a379b2e89076d23cbcb8027f8cb262306a0a91f792ba227999820"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.13/Qube-0.10.13-mac.zip",
+      "size": 172017242,
+      "sha256": "4a6bde46c8ea1b67fab24c0abd95ec1dcd25e67ab5d0b2cb31728d2bef8be0b4"
     },
-    "notes": "New:\n\n* Never Unload on a pinned tab or an Essential (right-click): the page loads at launch, keeps running when not selected and is never unloaded\n\nFixed:\n\n* A link, script or redirect that stays in the tab no longer opens a Peek from a pinned tab or an Essential, so a sign-in stays in its tab",
-    "summary": "Never Unload for pinned tabs and Essentials, and sign-ins stay in their tab."
+    "notes": "New:\n\n* Folders inside folders: New Nested Folder in a folder's right-click menu, and a folder dragged onto another goes inside it; Import from Arc keeps them nested\n* Create a Space looks like Arc's\n* Archive Other Tabs, Archive Tabs Below and Archive Tabs Above in a tab's right-click menu\n* Separate From Pinned Tab on a pinned tab that has left its page\n* Copy All Links as Markdown in a folder's right-click menu\n* Copy URL (⇧⌘C) leaves trackers out; Copy URL as Quote (⌃⇧⌘C) links to the selected text\n* Cycle Tab Backward and Forward (⌃⌘← and ⌃⌘→) go through tabs in the order you viewed them\n* A tab using the camera, microphone or screen sharing shows it in the sidebar\n* Open Link in Peek in a page's link menu, and ⌥⌘-click opens a link in Little Qube\n* Archived Tabs can be filtered on how the tab was closed\n* Library › Media also shows the Desktop\n* Interface Scale and Default Page Zoom offer 50 %\n* The Streaming Space has Back again\n* Quitting asks first while a download is running\n\nFixed:\n\n* Clicks that stopped working and Control, Option or Command that stayed held after a prompt, menu or drag\n* Dragging something onto a page (such as a website builder's canvas) works again\n* A page under the open Library no longer reacts to the pointer\n* Back and Forward sit centred at every Interface Scale\n* The sidebar's icons are Arc's soft grey",
+    "summary": "More of Arc: folders inside folders, Create a Space as Arc's, new tab and folder menu items, and stuck clicks and keys fixed."
   }
 }
