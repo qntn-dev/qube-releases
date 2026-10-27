@@ -10,15 +10,15 @@
   "notes": "0.5.1\nFixed:\n* Updates no longer fail right after you press Update\n\n0.5.0\nNew:\n* Notes: text notes and whiteboards, as tabs and in the Library\n* Command bar with 60 commands, and Ask AI\n* Qube Spark: chat with Claude or ChatGPT\n* Streaming Space: a Space with a tile per streaming service\n* Little Qube: links from other apps open in a small window\n* Spotify as music source, next to Apple Music\n* Per profile: search engine, download folder and extensions\n* Full keyboard and Narrator support\n* Settings in the Windows 11 style\n* Works on PCs without a graphics card, such as Windows 365 Cloud PCs\n\nImproved:\n* Tabs not used for an hour are unloaded to save memory\n* Windows from your last session reopen at start\n\nFixed:\n* Permission questions and page dialogs no longer get lost\n* A tab moved to another Space right after opening keeps its page",
   "summary": "Notes, a new command bar, a Streaming Space, and support for PCs without a graphics card.",
   "mac": {
-    "version": "0.10.15",
-    "name": "Qube for Mac 0.10.15",
+    "version": "0.10.16",
+    "name": "Qube for Mac 0.10.16",
     "published": "2026-10-27",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.15/Qube-0.10.15-mac.zip",
-      "size": 172037007,
-      "sha256": "6790a2b5ceae35aa1bb34333d1cfd2f5478feb8e278f77e0e849d47381b272a0"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.16/Qube-0.10.16-mac.zip",
+      "size": 172037400,
+      "sha256": "b6535d5a774ff282e1f5de882cd20188e819160c174b411d3374fe3409222c29"
     },
-    "notes": "New:\n\n* Everything under the Space's name scrolls as one list, as in Arc, with a thin line under the name once scrolled\n* The top of a page drags the window only where nothing is under the pointer, not over a text field, button, link or stream\n\nFixed:\n\n* Liquid Glass with Frost kept the graphics chip busy (60 to 70 %); now it rests\n* Chrome's colour, date and time pickers open under their field instead of far outside the window, and stay open when clicked\n* A split pane's bar takes the colour of the top of its page, also on sites that declare white (such as CIPP)\n* A split in a tab group sits in line with the group's tabs\n* Tidy Downloads renames only names that are codes or numbers, and no longer adds a year or a web address",
-    "summary": "The whole sidebar scrolls as Arc's, Liquid Glass with Frost no longer strains the graphics chip, and Chrome's colour and date pickers open where they belong."
+    "notes": "Fixed:\n\n* A blue box no longer appears round the pinned tabs and folders after clicking one",
+    "summary": "A blue box no longer shows round the pinned tabs."
   }
 }
