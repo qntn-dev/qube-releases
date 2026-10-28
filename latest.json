@@ -7,8 +7,8 @@
                   "size":  439767682,
                   "sha256":  "828b8e09588b7a17e3b7c15ffb673901d634cb4ac6cff8a0d99d062db4b7eddd"
               },
-    "notes":  "New:\n* A version for Windows on Arm PCs\n* Peek: links from Essentials and pinned tabs open in a card over the page\n* Capture and Capture Full Page\n* Developer Mode per site, with its own toolbar\n* Site notifications on Essentials and tabs in the sidebar\n* Never Unload for pinned tabs and Essentials\n* Qube asks before the last window closes\n\nImproved:\n* New look for the command bar and the page menu\n* Folders and pinned tabs in any order, and folders can be dragged\n* Find on Page finds as you type; Return asks Qube Spark\n* Colours follow the Space throughout the sidebar\n* A site\u0027s question stays until you answer it\n\nFixed:\n* PDFs scroll smoothly\n* Uploading files works again\n* Windows notifications from sites show again\n* Sidebar icons stay sharp when the display scale changes",
-    "summary":  "Peek, Capture, Developer Mode, notifications in the sidebar and a version for Arm PCs.",
+    "notes":  "New:\n* A version for Windows on Arm PCs\n* Capture and Capture Full Page\n* Developer Mode per site, with its own toolbar\n* Site notifications on Essentials and tabs in the sidebar\n* Never Unload for pinned tabs and Essentials\n* Qube asks before the last window closes\n\nImproved:\n* Peek opens and closes more smoothly\n* Links from Essentials and pinned tabs open in a Peek\n* New look for the command bar and the page menu\n* Folders and pinned tabs in any order, and folders can be dragged\n* Find on Page finds as you type; Return asks Qube Spark\n* Colours follow the Space throughout the sidebar\n* A site\u0027s question stays until you answer it\n\nFixed:\n* PDFs scroll smoothly\n* Uploading files works again\n* Windows notifications from sites show again\n* Sidebar icons stay sharp when the display scale changes",
+    "summary":  "Capture, Developer Mode, notifications in the sidebar, smoother Peek and a version for Arm PCs.",
     "mac":  {
                 "version":  "0.10.16",
                 "name":  "Qube for Mac 0.10.16",
