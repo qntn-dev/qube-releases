@@ -1,29 +1,29 @@
 {
-  "version": "0.7.0",
-  "name": "Qube Browser 0.7.0",
-  "published": "2026-10-30",
-  "setup": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.0/Qube-0.7.0-setup.exe",
-    "size": 439821703,
-    "sha256": "c8ae01c7c6afb08fad351eb21412e8bc7db91f1ab6e4090f86fd8b5c9ea9f5f7"
-  },
-  "notes": "0.7.0\nNew:\n* A Picture in Picture button on videos\n\nImproved:\n* Sites without an icon get a letter icon in their own colour\n\n0.6.1\nImproved:\n* New look for the command bar, and it completes more of your sites\n\nFixed:\n* The letter y can be typed in websites again\n\n0.6.0\nNew:\n* A version for Windows on Arm PCs\n* Capture and Capture Full Page\n* Developer Mode per site, with its own toolbar\n* Site notifications on Essentials and tabs in the sidebar\n* Never Unload for pinned tabs and Essentials\n* Qube asks before the last window closes\n\nImproved:\n* Peek opens and closes more smoothly\n* Links that Essentials and pinned tabs open in a new tab show as a Peek\n* New look for the command bar and the page menu\n* Folders and pinned tabs in any order, and folders can be dragged\n* Find on Page: Return asks Qube Spark about the page\n* Colours follow the Space throughout the sidebar\n* A site's question stays until you answer it\n\nFixed:\n* PDFs scroll smoothly\n* Uploading files works again\n* Sidebar icons stay sharp when the display scale changes",
-  "summary": "A Picture in Picture button on videos, and letter icons for sites without one.",
-  "mac": {
-    "version": "0.10.20",
-    "name": "Qube for Mac 0.10.20",
+    "version": "0.7.1",
+    "name": "Qube Browser 0.7.1",
     "published": "2026-11-02",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.20/Qube-0.10.20-mac.zip",
-      "size": 172501113,
-      "sha256": "5009e91ac6270777660469190a56cc68e7a6c7adfdc7ec979a271b01f74ce1b9"
+        "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.1/Qube-0.7.1-setup.exe",
+        "size": 443217034,
+        "sha256": "f79ca4febb31fa419f7717257238a5f1635db91b676b977fda59f5be3e569a99"
     },
-    "notes": "Fixed:\n\n* Qube no longer quits now and then while the pointer moves over tabs in the sidebar or rows in the Library",
-    "summary": "Fixes a crash while hovering tabs."
-  },
-  "setupArm64": {
-    "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.0/Qube-0.7.0-arm64-setup.exe",
-    "size": 435429386,
-    "sha256": "c288c9591415b45e226a63f56b5d25d4f017ba07131110662fb7ad8a291bb344"
-  }
+    "notes": "0.7.1\nImproved:\n* The latest security updates for websites\n* Steadier Netflix playback with Ambient Glow on\n\n0.7.0\nNew:\n* A Picture in Picture button on videos\n\nImproved:\n* Sites without an icon get a letter icon in their own colour\n\n0.6.1\nImproved:\n* New look for the command bar, and it completes more of your sites\n\nFixed:\n* The letter y can be typed in websites again\n\n0.6.0\nNew:\n* A version for Windows on Arm PCs\n* Capture and Capture Full Page\n* Developer Mode per site, with its own toolbar\n* Site notifications on Essentials and tabs in the sidebar\n* Never Unload for pinned tabs and Essentials\n* Qube asks before the last window closes\n\nImproved:\n* Peek opens and closes more smoothly\n* Links that Essentials and pinned tabs open in a new tab show as a Peek\n* New look for the command bar and the page menu\n* Folders and pinned tabs in any order, and folders can be dragged\n* Find on Page: Return asks Qube Spark about the page\n* Colours follow the Space throughout the sidebar\n* A site's question stays until you answer it\n\nFixed:\n* PDFs scroll smoothly\n* Uploading files works again\n* Sidebar icons stay sharp when the display scale changes",
+    "summary": "The latest security updates, and steadier Netflix playback.",
+    "mac": {
+        "version": "0.10.20",
+        "name": "Qube for Mac 0.10.20",
+        "published": "2026-11-02",
+        "setup": {
+            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.20/Qube-0.10.20-mac.zip",
+            "size": 172501113,
+            "sha256": "5009e91ac6270777660469190a56cc68e7a6c7adfdc7ec979a271b01f74ce1b9"
+        },
+        "notes": "Fixed:\n\n* Qube no longer quits now and then while the pointer moves over tabs in the sidebar or rows in the Library",
+        "summary": "Fixes a crash while hovering tabs."
+    },
+    "setupArm64": {
+        "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.1/Qube-0.7.1-arm64-setup.exe",
+        "size": 438511945,
+        "sha256": "1cb24c9f0493f24e5668c26a639e539f0b4d1c123ebaa327d41dd1802d608b62"
+    }
 }
