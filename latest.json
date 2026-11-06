@@ -10,16 +10,16 @@
   "notes": "0.7.1\nImproved:\n* The latest security updates for websites\n* Steadier Netflix playback with Ambient Glow on\n\n0.7.0\nNew:\n* A Picture in Picture button on videos\n\nImproved:\n* Sites without an icon get a letter icon in their own colour\n\n0.6.1\nImproved:\n* New look for the command bar, and it completes more of your sites\n\nFixed:\n* The letter y can be typed in websites again\n\n0.6.0\nNew:\n* A version for Windows on Arm PCs\n* Capture and Capture Full Page\n* Developer Mode per site, with its own toolbar\n* Site notifications on Essentials and tabs in the sidebar\n* Never Unload for pinned tabs and Essentials\n* Qube asks before the last window closes\n\nImproved:\n* Peek opens and closes more smoothly\n* Links that Essentials and pinned tabs open in a new tab show as a Peek\n* New look for the command bar and the page menu\n* Folders and pinned tabs in any order, and folders can be dragged\n* Find on Page: Return asks Qube Spark about the page\n* Colours follow the Space throughout the sidebar\n* A site's question stays until you answer it\n\nFixed:\n* PDFs scroll smoothly\n* Uploading files works again\n* Sidebar icons stay sharp when the display scale changes",
   "summary": "The latest security updates, and steadier Netflix playback.",
   "mac": {
-    "version": "0.10.24",
-    "name": "Qube for Mac 0.10.24",
+    "version": "0.10.25",
+    "name": "Qube for Mac 0.10.25",
     "published": "2026-11-06",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.24/Qube-0.10.24-mac.zip",
-      "size": 172713910,
-      "sha256": "5f8fbf7095d4f7f6a139664c47987d7895924c22b74c480dcc568ff113eb29ac"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.25/Qube-0.10.25-mac.zip",
+      "size": 172715024,
+      "sha256": "a974585ed7761e4e4f2030cc27512d1e1e8b1143cdea0ed47c00d761ac456ce4"
     },
-    "notes": "New:\n\n* Export to Arc and Zen includes Space colours\n* Export to Dia via Dia's import from Arc: Spaces, pinned tabs and Favorites\n* Export to Arc puts each Space on the Arc profile with the same name",
-    "summary": "Export keeps Space colours."
+    "notes": "Fixed:\n\n* The New Tab row could disappear and leave an empty band\n* Closed tabs left a gap instead of the rows below moving up",
+    "summary": "Fixes the sidebar losing its New Tab row."
   },
   "setupArm64": {
     "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.1/Qube-0.7.1-arm64-setup.exe",
