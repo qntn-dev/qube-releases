@@ -18,8 +18,8 @@
       "size": 176163791,
       "sha256": "ebbf43428e42abc8477ae09323774fd688b5e59b9c093ac7a09841425aa35f84"
     },
-    "notes": "Improved:\n\n* Pages run on Chromium 157 (was 155)\n* The command bar appears at once, with Arc's soft shadow, a light see-through fill and a window's edge\n* Sidebar rows, the sidebar, Space switching, Peek and the Library move on Arc's measured timings\n* Folders open and shut on Arc's timing, on every click however fast\n\nFixed:\n\n* A tab can be dragged (to split, or onto the page) without becoming the tab on screen first\n* Buttons that ask \"Are you sure?\" on a page work in every Space\n* Less of a strip at the right and bottom while resizing the window\n* Several rare crashes while moving the pointer over the sidebar and lists\n* The drag ghost and hover marks stay under the mini player",
-    "summary": "Chromium 157, and Qube moves the way Arc does."
+    "notes": "Changes:\n\n* Updated Qube to Chromium 157.0.8103.26\n* Command bar opens instantly\n* Sidebar, Space switch, Peek and Library animations use Arc's timings\n* Folders open and close on every click\n\nFixed:\n\n* Dragging a tab selected it\n* Confirm buttons on pages did nothing in some Spaces\n* Crashes when hovering tabs or Library rows\n* White edge while resizing the window",
+    "summary": "Updated Qube to Chromium 157.0.8103.26."
   },
   "setupArm64": {
     "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.1/Qube-0.7.1-arm64-setup.exe",
