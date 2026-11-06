@@ -18,7 +18,7 @@
       "size": 176163791,
       "sha256": "ebbf43428e42abc8477ae09323774fd688b5e59b9c093ac7a09841425aa35f84"
     },
-    "notes": "Changes:\n\n* Updated Qube to Chromium 157.0.8103.26\n* Command bar opens instantly\n* Sidebar, Space switch, Peek and Library animations use Arc's timings\n* Folders open and close on every click\n\nFixed:\n\n* Dragging a tab selected it\n* Confirm buttons on pages did nothing in some Spaces\n* Crashes when hovering tabs or Library rows\n* White edge while resizing the window",
+    "notes": "Changes:\n\n* Updated Qube to Chromium 157.0.8103.26\n* Command bar opens instantly\n* Faster animations in the sidebar, Space switch, Peek and Library\n* Folders open and close on every click\n\nFixed:\n\n* Dragging a tab selected it\n* Confirm buttons on pages did nothing in some Spaces\n* Crashes when hovering tabs or Library rows\n* White edge while resizing the window",
     "summary": "Updated Qube to Chromium 157.0.8103.26."
   },
   "setupArm64": {
