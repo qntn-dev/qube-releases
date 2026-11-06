@@ -10,16 +10,16 @@
   "notes": "0.7.1\nImproved:\n* The latest security updates for websites\n* Steadier Netflix playback with Ambient Glow on\n\n0.7.0\nNew:\n* A Picture in Picture button on videos\n\nImproved:\n* Sites without an icon get a letter icon in their own colour\n\n0.6.1\nImproved:\n* New look for the command bar, and it completes more of your sites\n\nFixed:\n* The letter y can be typed in websites again\n\n0.6.0\nNew:\n* A version for Windows on Arm PCs\n* Capture and Capture Full Page\n* Developer Mode per site, with its own toolbar\n* Site notifications on Essentials and tabs in the sidebar\n* Never Unload for pinned tabs and Essentials\n* Qube asks before the last window closes\n\nImproved:\n* Peek opens and closes more smoothly\n* Links that Essentials and pinned tabs open in a new tab show as a Peek\n* New look for the command bar and the page menu\n* Folders and pinned tabs in any order, and folders can be dragged\n* Find on Page: Return asks Qube Spark about the page\n* Colours follow the Space throughout the sidebar\n* A site's question stays until you answer it\n\nFixed:\n* PDFs scroll smoothly\n* Uploading files works again\n* Sidebar icons stay sharp when the display scale changes",
   "summary": "The latest security updates, and steadier Netflix playback.",
   "mac": {
-    "version": "0.10.21",
-    "name": "Qube for Mac 0.10.21",
+    "version": "0.10.22",
+    "name": "Qube for Mac 0.10.22",
     "published": "2026-11-06",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.21/Qube-0.10.21-mac.zip",
-      "size": 176163791,
-      "sha256": "ebbf43428e42abc8477ae09323774fd688b5e59b9c093ac7a09841425aa35f84"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.22/Qube-0.10.22-mac.zip",
+      "size": 172472306,
+      "sha256": "f0cfcd8af6996a524068e1e8ceef3f0b92a9a24aead3833dad6bd1d6c4ad4e0d"
     },
-    "notes": "Changes:\n\n* Updated Qube to Chromium 157.0.8103.26\n* Command bar opens instantly\n* Faster animations in the sidebar, Space switch, Peek and Library\n* Folders open and close on every click\n\nFixed:\n\n* Dragging a tab selected it\n* Confirm buttons on pages did nothing in some Spaces\n* Crashes when hovering tabs or Library rows\n* White edge while resizing the window",
-    "summary": "Updated Qube to Chromium 157.0.8103.26."
+    "notes": "Fixed:\n\n* Pages did not grow when the window got bigger, in splits and in single tabs",
+    "summary": "Back on Chromium 155.0.8059.85."
   },
   "setupArm64": {
     "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.1/Qube-0.7.1-arm64-setup.exe",
