@@ -10,16 +10,16 @@
     "notes": "0.7.2\nFixed:\n* Qube no longer quits when Essentials move aside\n* Sites such as bol.com no longer block Qube as a bot\n\n0.7.1\nImproved:\n* The latest security updates for websites\n* Steadier Netflix playback with Ambient Glow on\n\n0.7.0\nNew:\n* A Picture in Picture button on videos\n\nImproved:\n* Sites without an icon get a letter icon in their own colour\n\n0.6.1\nImproved:\n* New look for the command bar, and it completes more of your sites\n\nFixed:\n* The letter y can be typed in websites again\n\n0.6.0\nNew:\n* A version for Windows on Arm PCs\n* Capture and Capture Full Page\n* Developer Mode per site, with its own toolbar\n* Site notifications on Essentials and tabs in the sidebar\n* Never Unload for pinned tabs and Essentials\n* Qube asks before the last window closes\n\nImproved:\n* Peek opens and closes more smoothly\n* Links that Essentials and pinned tabs open in a new tab show as a Peek\n* New look for the command bar and the page menu\n* Folders and pinned tabs in any order, and folders can be dragged\n* Find on Page: Return asks Qube Spark about the page\n* Colours follow the Space throughout the sidebar\n* A site's question stays until you answer it\n\nFixed:\n* PDFs scroll smoothly\n* Uploading files works again\n* Sidebar icons stay sharp when the display scale changes",
     "summary": "Qube no longer quits when Essentials move aside, and bol.com works again.",
     "mac": {
-        "version": "0.10.25",
-        "name": "Qube for Mac 0.10.25",
-        "published": "2026-11-06",
+        "version": "0.11.0",
+        "name": "Qube for Mac 0.11.0",
+        "published": "2026-11-16",
         "setup": {
-            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.25/Qube-0.10.25-mac.zip",
-            "size": 172715024,
-            "sha256": "a974585ed7761e4e4f2030cc27512d1e1e8b1143cdea0ed47c00d761ac456ce4"
+            "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.11.0/Qube-0.11.0-mac.zip",
+            "size": 179017954,
+            "sha256": "fccb4e482c4e76c0bd9b537421ba2372440907ddb64de15615f8899f9fe030d1"
         },
-        "notes": "Fixed:\n\n* The New Tab row could disappear and leave an empty band\n* Closed tabs left a gap instead of the rows below moving up",
-        "summary": "Fixes the sidebar losing its New Tab row."
+        "notes": "New:\n\n* Qube is rebuilt on a new foundation. Your Spaces, tabs, Essentials, archive, profiles and settings come along the first time it opens\n* Tab groups, and Tidy to sort your tabs into them\n* Tabs and Essentials follow the pointer more smoothly while you drag them\n* Split drop zones, Peek and the pane bar have a calmer look\n* The engine no longer shows its own icon in the Dock\n\nChanged:\n\n* The downloads list starts empty\n* Essentials are one row shared by every Space\n* Private windows are not reopened",
+        "summary": "Qube on a new foundation, with tab groups and smoother dragging."
     },
     "setupArm64": {
         "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.2/Qube-0.7.2-arm64-setup.exe",
