@@ -18,8 +18,8 @@
       "size": 180527104,
       "sha256": "fc41b2b62969bb9a066161e4e5a3b00420cb1becc86616c3298ede03d07eba32"
     },
-    "notes": "New:\n\n* Tabs across the top, as a layout setting\n* Sidebar on the right\n* Address in the toolbar or in the sidebar\n* Hide Toolbar While Scrolling\n* Tab Style: Qube or Outlined, with Glow Full, Soft or Off\n* Settings with a sidebar, search and picture cards\n* Split view: drop zones to add a tab to the left or right of a pane\n* Drag the open tab onto a drop zone to split it with a copy\n* A split menu on each pane, and splits can be reordered\n* Focus Next and Previous Split Pane on Ctrl-Shift-] and Ctrl-Shift-[\n* Flip Split View, Remove from Split View and Separate All Tabs in the command bar\n* A playing video goes into picture in picture on ⌘M and ⌘H\n* A page that needs DRM is offered as a media tab\n* A message when a link is copied\n* A letter tile for a site without an icon\n* Windows open and close with motion\n\nChanged:\n\n* Dragging a tab from the sidebar is smooth\n* Split panes are separate cards that move with the page\n* Vaultbridge is no longer built in\n\nFixed:\n\n* Pages stayed at 60 or 70 Hz after connecting or disconnecting a screen\n* The glow of the selected row was cut off\n\nUpdated Qube to Chromium 158.0.8127.37",
-    "summary": "New layout options and split view, and pages that keep the refresh rate of the screen they are on."
+    "notes": "New:\n\n* Tabs across the top, or the sidebar on the right\n* Address in the toolbar or in the sidebar\n* Tab Style and Glow settings\n* Split view drop zones, a split menu on each pane, and a split with a copy of the open tab\n* Picture in picture on ⌘M and ⌘H\n\nFixed:\n\n* Pages stayed at 60 or 70 Hz after connecting or disconnecting a screen\n\nUpdated Qube to Chromium 158.0.8127.37",
+    "summary": "New layouts and split view, and pages that keep the refresh rate of their screen."
   },
   "setupArm64": {
     "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.2/Qube-0.7.2-arm64-setup.exe",
