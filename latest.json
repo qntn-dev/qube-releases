@@ -10,16 +10,16 @@
   "notes": "0.7.2\nFixed:\n* Qube no longer quits when Essentials move aside\n* Sites such as bol.com no longer block Qube as a bot\n\n0.7.1\nImproved:\n* The latest security updates for websites\n* Steadier Netflix playback with Ambient Glow on\n\n0.7.0\nNew:\n* A Picture in Picture button on videos\n\nImproved:\n* Sites without an icon get a letter icon in their own colour\n\n0.6.1\nImproved:\n* New look for the command bar, and it completes more of your sites\n\nFixed:\n* The letter y can be typed in websites again\n\n0.6.0\nNew:\n* A version for Windows on Arm PCs\n* Capture and Capture Full Page\n* Developer Mode per site, with its own toolbar\n* Site notifications on Essentials and tabs in the sidebar\n* Never Unload for pinned tabs and Essentials\n* Qube asks before the last window closes\n\nImproved:\n* Peek opens and closes more smoothly\n* Links that Essentials and pinned tabs open in a new tab show as a Peek\n* New look for the command bar and the page menu\n* Folders and pinned tabs in any order, and folders can be dragged\n* Find on Page: Return asks Qube Spark about the page\n* Colours follow the Space throughout the sidebar\n* A site's question stays until you answer it\n\nFixed:\n* PDFs scroll smoothly\n* Uploading files works again\n* Sidebar icons stay sharp when the display scale changes",
   "summary": "Qube no longer quits when Essentials move aside, and bol.com works again.",
   "mac": {
-    "version": "0.10.26",
-    "name": "Qube for Mac 0.10.26",
-    "published": "2026-11-23",
+    "version": "0.10.27",
+    "name": "Qube for Mac 0.10.27",
+    "published": "2026-11-24",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.26/Qube-0.10.26-mac.zip",
-      "size": 180527104,
-      "sha256": "fc41b2b62969bb9a066161e4e5a3b00420cb1becc86616c3298ede03d07eba32"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.27/Qube-0.10.27-mac.zip",
+      "size": 180542030,
+      "sha256": "20887b26889f7cc3de835fd5c6dfff001833cc637388343516f00f5dda2e3d34"
     },
-    "notes": "New:\n\n* Tabs across the top, or the sidebar on the right\n* Address in the toolbar or in the sidebar\n* Tab Style and Glow settings\n* Split view drop zones, a split menu on each pane, and a split with a copy of the open tab\n* Picture in picture on ⌘M and ⌘H\n\nFixed:\n\n* Pages stayed at 60 or 70 Hz after connecting or disconnecting a screen\n\nUpdated Qube to Chromium 158.0.8127.37",
-    "summary": "New layouts and split view, and pages that keep the refresh rate of their screen."
+    "notes": "Fixed:\n\n* Scrolling with the trackpad stuttered now and then on every site\n* The update window could run past the edge of a small Qube window\n* Qube could hang while closing to install an update\n* The space under New Tab was gone\n* The bar above a page now has the page's own colour\n* Site icons sat slightly too high next to their title\n* The gap above a page now matches the gap at its sides",
+    "summary": "Smoother trackpad scrolling, and small fixes to the window."
   },
   "setupArm64": {
     "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.2/Qube-0.7.2-arm64-setup.exe",
