@@ -10,16 +10,16 @@
   "notes": "0.7.2\nFixed:\n* Qube no longer quits when Essentials move aside\n* Sites such as bol.com no longer block Qube as a bot\n\n0.7.1\nImproved:\n* The latest security updates for websites\n* Steadier Netflix playback with Ambient Glow on\n\n0.7.0\nNew:\n* A Picture in Picture button on videos\n\nImproved:\n* Sites without an icon get a letter icon in their own colour\n\n0.6.1\nImproved:\n* New look for the command bar, and it completes more of your sites\n\nFixed:\n* The letter y can be typed in websites again\n\n0.6.0\nNew:\n* A version for Windows on Arm PCs\n* Capture and Capture Full Page\n* Developer Mode per site, with its own toolbar\n* Site notifications on Essentials and tabs in the sidebar\n* Never Unload for pinned tabs and Essentials\n* Qube asks before the last window closes\n\nImproved:\n* Peek opens and closes more smoothly\n* Links that Essentials and pinned tabs open in a new tab show as a Peek\n* New look for the command bar and the page menu\n* Folders and pinned tabs in any order, and folders can be dragged\n* Find on Page: Return asks Qube Spark about the page\n* Colours follow the Space throughout the sidebar\n* A site's question stays until you answer it\n\nFixed:\n* PDFs scroll smoothly\n* Uploading files works again\n* Sidebar icons stay sharp when the display scale changes",
   "summary": "Qube no longer quits when Essentials move aside, and bol.com works again.",
   "mac": {
-    "version": "0.10.28",
-    "name": "Qube for Mac 0.10.28",
+    "version": "0.10.29",
+    "name": "Qube for Mac 0.10.29",
     "published": "2026-11-25",
     "setup": {
-      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.28/Qube-0.10.28-mac.zip",
-      "size": 181503277,
-      "sha256": "d652b3540a80209040491fd4430d93c346d9d1db55431e52c59154fa222a877c"
+      "url": "https://github.com/qntn-dev/qube-releases/releases/download/mac-v0.10.29/Qube-0.10.29-mac.zip",
+      "size": 181508738,
+      "sha256": "901d27c31e5bf18b7123e5f4e854cc6a09dc5e24ef1fb133eecffe7c262fc260"
     },
-    "notes": "Fixed:\n\n* Scrolling and animations stuttered on every site, as if the screen ran at half its refresh rate",
-    "summary": "Scrolling and animations are smooth again."
+    "notes": "Fixed:\n\n* Rows in the sidebar stayed lit after you scrolled past them\n* Tab titles and New Tab sat slightly off-centre in their row",
+    "summary": "Sidebar rows no longer stay lit after scrolling."
   },
   "setupArm64": {
     "url": "https://github.com/qntn-dev/qube-releases/releases/download/v0.7.2/Qube-0.7.2-arm64-setup.exe",
